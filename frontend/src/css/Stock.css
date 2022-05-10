@@ -1,0 +1,87 @@
+/* stock */
+.stock-info {
+	margin: 20px 0;
+}
+
+.stock-name span {
+	margin-right: 5px;
+}
+
+.stock-price {
+	font-size: 30px;
+}
+
+.stock-graph {
+	/* height: 60vh; */
+}
+
+.stock-container .col-md-4 > div {
+	border-top: 1px solid rgb(224, 224, 224);
+	padding: 20px 0;
+}
+
+/* News Section */
+.news-container {
+	margin-bottom: 5px;
+}
+
+.news-section {
+	height: 300px;
+	overflow-x: hidden;
+}
+
+.news-wrap {
+	margin-top: 5px;
+}
+
+.news-title a {
+	color: #0b56bf;
+	text-decoration: none;
+}
+
+/* Comment Section */
+.comment-container {
+	margin-bottom: 20px;
+}
+
+.comment-section {
+	height: 80vh;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+}
+
+.comment-wrap {
+	display: flex;
+	margin-bottom: 10px;
+	word-break: break-word;
+}
+
+.avatar {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+.username {
+	text-decoration: underline;
+}
+
+.comment-date {
+	margin-left: 5px;
+}
+
+.comment {
+	width: 100%;
+}
+
+.comment .content {
+	padding-right: 10px;
+}
+
+.dark .comment-input {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+	border: 1px solid #ffffff !important;
+}

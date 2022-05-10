@@ -1,0 +1,116 @@
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.nav-bar {
+	position: sticky;
+	top: 46px;
+	left: 0;
+	z-index: 100;
+	margin-bottom: 20px;
+}
+
+/* Login */
+nav .container-fluid {
+	padding: 16px 60px;
+	background-color: #ffffff;
+}
+
+.dark nav .container-fluid {
+	background-color: #000000;
+}
+
+.login {
+	display: flex;
+	justify-content: center;
+}
+
+.login a {
+	width: 80px;
+	padding: 8px 16px;
+	text-align: center;
+}
+
+.login a:first-child {
+	border-right: 1px solid #000000;
+}
+.dark .login a:first-child {
+	border-right: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.user-avatar-btn {
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.user-avatar-btn::after {
+	content: none;
+}
+
+.user-avatar {
+	height: 60px;
+	width: 60px;
+}
+
+.brand-name {
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.dark .brand-name a {
+	color: #ffffff;
+}
+
+.brand-name a:hover {
+	color: #000000;
+}
+
+.dark .brand-name a:hover {
+	color: #ffffff;
+}
+
+.brand-name div {
+	font-size: 12px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.dark .brand-name div {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* Bottom Bar */
+.navbar-toggler {
+	color: rgb(255, 255, 255, 0.5);
+}
+
+nav.blue > button {
+	color: rgba(255, 255, 255, 1) !important;
+}
+
+.blue {
+	background-color: #273472;
+	color: #ffffff;
+}
+
+.blue a {
+	color: #ffffff !important;
+	padding: 15px !important;
+}
+
+.navbar,
+.navbar button {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.nav-item {
+	font-weight: 700;
+	letter-spacing: 2px;
+}

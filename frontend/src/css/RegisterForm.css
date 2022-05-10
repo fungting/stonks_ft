@@ -1,0 +1,18 @@
+#avatar-preview {
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+}
+
+#terms-checkbox {
+	width: 20px;
+}
+
+.tos {
+	display: flex;
+	align-items: center;
+}
+
+.tos span {
+	font-size: 12px;
+}

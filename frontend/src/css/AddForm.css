@@ -1,0 +1,54 @@
+.fa-plus {
+	font-size: 30px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.form-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form-heading > div {
+	font-size: 40px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.rotate {
+	transform: rotate(45deg);
+	transition-duration: 0.5s;
+}
+
+.add-form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.add-form input {
+	border-radius: 10px;
+}
+
+.add-form button {
+	margin-left: 5px;
+	border: none;
+	color: #ffffff;
+	background-color: #273472;
+	border-radius: 15%;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.watchlist-form,
+.ticker-form {
+	display: none;
+	margin-bottom: 10px;
+}
+
+.watchlist-form.active,
+.ticker-form.active {
+	display: flex;
+	justify-content: center;
+}

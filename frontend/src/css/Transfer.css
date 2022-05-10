@@ -1,0 +1,41 @@
+.connect {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.connect > * {
+	margin-bottom: 0;
+}
+
+.connect button {
+	margin-left: 10px;
+}
+
+.status-bar {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.status-bar > button {
+	margin-left: 10px;
+}
+
+.transfer-container .status-bar button {
+	margin-left: 5px;
+}
+
+.form-btn {
+	background-color: #273472;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+}
+
+.form-btn.active {
+	background-color: #3146a1;
+	color: #ffffff;
+}

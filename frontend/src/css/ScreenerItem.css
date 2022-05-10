@@ -1,0 +1,58 @@
+.stonk-btn-container {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.stonk-btn-container > h4 {
+	margin-right: 10px;
+}
+
+.screen-list {
+	height: 250px;
+	width: 250px;
+	margin-top: 5px;
+	overflow-y: scroll;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.dark .screen-list {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.screen-list > div {
+	width: 100%;
+	cursor: pointer;
+}
+
+.dark .screen-list > div {
+	color: #ffffff;
+	background-color: #000000;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.select-industry-list,
+.select-sector-list {
+	display: flex;
+}
+
+.fa-arrow-right {
+	font-size: 50px;
+	padding: 0 10px;
+}
+
+.excluded {
+	text-decoration: line-through;
+}
+
+.selected-industry,
+.selected-sector {
+	border-radius: 0.25rem;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.screen-result {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+}

@@ -1,0 +1,15 @@
+.calendar {
+	margin-bottom: 50px;
+}
+
+.calendar-container .stock-table {
+	margin-bottom: 30px;
+}
+
+.calendar-container .table-responsive {
+	height: auto;
+}
+
+.calendar .fc-event-title-container {
+	cursor: pointer;
+}

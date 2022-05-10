@@ -1,0 +1,16 @@
+#comment-form textarea {
+	resize: none;
+	border-radius: 25px;
+}
+
+#comment-form div:last-child {
+	margin-top: 5px;
+	text-align: right;
+}
+
+#comment-form div:last-child button {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	margin-left: 5px;
+}

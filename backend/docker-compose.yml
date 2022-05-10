@@ -1,0 +1,34 @@
+version: "3"
+
+services:
+    stonks:
+        # depends_on:
+        #     - db
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            AWS_PASSWORD: ft98753329
+            AWS_HOST: stonks.cryzm2ynadq7.ap-southeast-1.rds.amazonaws.com
+            POSTGRES_DB: stonks2
+            # POSTGRES_HOST: db
+            NODE_ENV: production
+            PORT: 8080
+        # build:
+        #     context: ./
+        #     dockerfile: ./Dockerfile
+        image: alvintsang/stonks:latest
+        ports:
+            - "8080:8080"
+    # db:
+    #     image: postgres:latest
+    #     environment:
+    #         POSTGRES_USER: postgres
+    #         POSTGRES_PASSWORD: postgres
+    #         POSTGRES_DB: stonks2
+    #     restart: always
+    #     expose:
+    #         - "5432"
+    #     ports:
+    #         - "5432:5432"
+    #     volumes:
+    #         - ./pgdata:/var/lib/postgresql/data

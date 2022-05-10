@@ -1,0 +1,19 @@
+h1,
+h2 {
+	margin: 0;
+}
+
+
+.watchlist-container .col-md-9 {
+	border-left: 1px solid #000000;
+}
+
+.dark .watchlist-container .col-md-9 {
+	border-left: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.watchlist-container tbody td:last-child,
+.watchlist-container tbody td:last-child:hover {
+	color: #e41212;
+	cursor: pointer;
+}

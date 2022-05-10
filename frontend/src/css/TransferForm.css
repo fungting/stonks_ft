@@ -1,0 +1,59 @@
+.transfer-form-container {
+	margin-top: 30px;
+}
+
+.transfer-form-container .col-6 {
+	border-radius: 0 0 5px 5px;
+	border: 1px solid #d3d3d3;
+	border-top: none;
+}
+.dark .transfer-form-container .col-6 {
+	border-radius: 0 0 5px 5px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.transfer-form-container .row:last-child > div {
+	border-top: none;
+}
+
+.transfer-form-container .row:not(:last-child) .col-6 {
+	border-bottom: none;
+	border-radius: 0;
+}
+
+#transfer-form {
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+
+
+.transfer-input {
+	display: flex;
+	align-items: center;
+}
+
+.transfer-input input {
+	width: 50%;
+}
+
+.transfer-input span {
+	margin-left: 5px;
+}
+
+#transfer-form .stonk-btn {
+	width: 50%;
+	margin-top: 10px;
+}
+
+.import-bar > div {
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.import-bar button {
+	margin-left: 5px;
+	margin-top: 5px;
+}

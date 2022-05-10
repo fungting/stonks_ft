@@ -1,0 +1,30 @@
+.section div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section span {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.section span:hover {
+	color: #006eff;
+}
+
+.section > div > div:last-child {
+	font-size: 20px;
+	color: #e41212;
+	cursor: pointer;
+}
+
+.selected span {
+	color: #0b56bf;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.dark .selected span {
+	color: #006eff;
+}

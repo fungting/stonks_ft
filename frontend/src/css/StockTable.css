@@ -1,0 +1,61 @@
+.stock-table {
+	position: relative;
+}
+
+.loading-container {
+	position: absolute;
+	left: 45%;
+	top: 400%;
+}
+
+.table-responsive {
+	overflow-y: auto;
+	height: 600px;
+}
+
+.stock-table thead {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+table.stock-table {
+	border-collapse: collapse;
+}
+
+.stock-table thead {
+	background-color: #273472;
+	color: #fff;
+	border: none;
+}
+
+.stock-table tr {
+	cursor: pointer;
+}
+
+.stock-table th {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 2.5;
+	letter-spacing: 2px;
+}
+
+.stock-table > :not(:first-child) {
+	border-top: none;
+}
+
+.stock-table .number {
+	text-align: right;
+}
+
+.stock-table .negative {
+	color: rgb(127, 37, 37);
+}
+.stock-table .positive {
+	color: rgb(40, 98, 40);
+}
+
+.stock-table .empty {
+	border: none;
+}

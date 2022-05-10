@@ -1,0 +1,26 @@
+.account-brief {
+	font-size: x-large;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 30px;
+}
+
+.brief-info {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.brief-value {
+	font-weight: bolder;
+}
+
+.portfolio-container .button-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.portfolio-container button.stonk-btn {
+	width: 40%;
+}

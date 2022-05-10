@@ -1,0 +1,70 @@
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.button-container button {
+	margin: 0 5px;
+	padding: 5px 20px;
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.buy-btn,
+.sell-btn {
+	border: none;
+	color: #ffffff;
+}
+
+.buy-btn {
+	background-color: #0b56bf;
+}
+
+.sell-btn {
+	background-color: #db1222;
+}
+
+.watchlist-btn,
+.noti-btn {
+	background-color: transparent;
+	border: 1px solid #0b56bf;
+	color: #0b56bf;
+}
+
+.buy-order .order-header {
+	background-color: #0b56bf;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.sell-order .order-header {
+	background-color: #db1222;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.title-row span:last-child {
+	margin-left: 5px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.input-row {
+	display: flex;
+	align-items: center;
+}
+
+.input-row > div:last-child {
+	margin-left: 10px;
+}
+
+.input-row > input {
+	width: 150px;
+}
+
+.cost-row {
+	margin-top: 10px;
+}
+
+.trade-btn {
+	margin-top: 20px;
+	width: 100%;
+}
